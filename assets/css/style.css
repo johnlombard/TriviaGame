@@ -1,0 +1,24 @@
+
+/* background image  */
+body {
+    background-image: url("../images/beatle.jpg");
+    
+}
+.container {
+    background-color: red;
+   
+}
+
+.row {
+    text-align: center;
+    
+}
+
+.col-12 {
+    margin: 25px;
+}
+h1 {
+    font-size: 56px!important;
+    font-family: 'Ultra', serif !important;
+    text-align: center;
+}

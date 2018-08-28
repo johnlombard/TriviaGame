@@ -18,24 +18,31 @@
 
     <div class="container">
 
+
+
         <!-- Title Row -->
         <div class="row">
             <div class="col-12">
                 <h1>Beatlemania!</h1>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" id="start">Start</button>
+            </div>
+        </div>
 
         <!--Timer -->
         <div class="row">
-            <div class="col-12" id ="time">
-                <h3>Time Remaining:</h3>
+            <div class="col-12" id="time">
+
             </div>
         </div>
 
 
         <!--Question  -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 question" id="question">
                 <h3>Who was the first drummer of the Bealtes</h3>
 
 
@@ -52,7 +59,7 @@
 
         <!--Question  -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 question" id="question">
                 <h3>Where are the Beatles from?</h3>
                 <form action="">
                     <input type="radio" name="#" value="#"> Liverpool
@@ -65,7 +72,7 @@
 
         <!--Question  -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 question" id="question">
                 <h3>Who crossed Abbey Road first? </h3>
                 <form action="">
                     <input type="radio" name="#" value="#"> Paul
@@ -78,47 +85,54 @@
 
         <!--Questions  -->
         <div class="row">
-                <div class="col-12">
-            <h3>On what program did the Beatles make their first live U.S. television appearance?</h3>
-            <form action="">
-                <input type="radio" name="#" value="#"> The Ed Sullivan Show
-                <input type="radio" name="#" value="#"> The Late Show
-                <input type="radio" name="#" value="#"> Good Morning America
-                <input type="radio" name="#" value="#"> The Ellen DeGeneres Show
-            </form>
+            <div class="col-12 question" id="question">
+                <h3>On what program did the Beatles make their first live U.S. television appearance?</h3>
+                <form action="">
+                    <input type="radio" name="#" value="#"> The Ed Sullivan Show
+                    <input type="radio" name="#" value="#"> The Late Show
+                    <input type="radio" name="#" value="#"> Good Morning America
+                    <input type="radio" name="#" value="#"> The Ellen DeGeneres Show
+                </form>
             </div>
         </div>
 
         <div class="row">
-                <div class="col-12">
-            <h3>What is the title of the movie, in which the Beatles take on the Blue Meanies?</h3>
-            <form action="">
-                <input type="radio" name="#" value="#"> Help!
-                <input type="radio" name="#" value="#"> Yellow Submarine
-                <input type="radio" name="#" value="#"> A Hard Day's Night
-                <input type="radio" name="#" value="#"> Rubber Soul
-            </form>
+            <div class="col-12 question" id="question">
+                <h3>What is the title of the movie, in which the Beatles take on the Blue Meanies?</h3>
+                <form action="">
+                    <input type="radio" name="#" value="#"> Help!
+                    <input type="radio" name="#" value="#"> Yellow Submarine
+                    <input type="radio" name="#" value="#"> A Hard Day's Night
+                    <input type="radio" name="#" value="#"> Rubber Soul
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 question" id="question">
+                <h3>Who was the song "Hey Jude" written for?</h3>
+                <form action="">
+                    <input type="radio" name="#" value="#"> John Lennon
+                    <input type="radio" name="#" value="#"> Julian Lennon
+                    <input type="radio" name="#" value="#"> Jude Law
+                    <input type="radio" name="#" value="#"> Mick Jagger
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 submit">
+                <button type="button">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-12 results">
+                    <h3>Correct:</h3>
+                    <h3>Incorrect:</h3>
+                    <h3>Unanswered:</h3>
+                    
                 </div>
-        </div>
-
-        <div class="row">
-                <div class="col-12">
-            <h3>Who was the song "Hey Jude" written for?</h3>
-            <form action="">
-                <input type="radio" name="#" value="#"> John Lennon
-                <input type="radio" name="#" value="#"> Julian Lennon
-                <input type="radio" name="#" value="#"> Jude Law
-                <input type="radio" name="#" value="#"> Mick Jagger
-            </form>
             </div>
-        </div>
-
-        <div class="row">
-                <div class="col-12">
-            <button type="button">Submit</button>
-            </div>
-        </div>
-
 
     </div>
     <script src="assets/javascript/app.js"></script>
