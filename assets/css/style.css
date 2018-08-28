@@ -17,8 +17,19 @@ body {
 .col-12 {
     margin: 25px;
 }
+
 h1 {
     font-size: 56px!important;
     font-family: 'Ultra', serif !important;
     text-align: center;
+}
+
+
+#over{
+    text-align: center;
+    font-family: 'Ultra', serif !important;
+}
+
+.results {
+    font-family: 'Ultra', serif !important;
 }
