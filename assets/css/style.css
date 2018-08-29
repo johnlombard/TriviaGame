@@ -2,10 +2,12 @@
 /* background image  */
 body {
     background-image: url("../images/beatle.jpg");
+    font-family: 'Ultra', serif !important;
     
 }
 .container {
     background-color: red;
+    border-radius: 75%;
    
 }
 
@@ -16,6 +18,34 @@ body {
 
 .col-12 {
     margin: 25px;
+}
+
+button {
+    
+    border-radius: 25%;
+    height: 170px;
+    width: 250px;
+background-image: url("/Users/John/Desktop/TriviaGame/assets/images/button.jpg");
+font-family: 'Ultra', serif !important;
+font-size: 36px!important;
+
+color: black;
+
+}
+
+.submit {
+    background-color: gold;
+    border-radius: 25%;
+    height: 70px;
+    width: 250px;
+
+}
+.encore {
+    background-color: gold;
+    border-radius: 25%;
+    height: 70px;
+    width: 250px;
+
 }
 
 h1 {
